@@ -283,9 +283,20 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array) {
+  const myID = {
+    id: 20,
+    name: "Jaden Ficklin",
+    years: "1999 - 2021",
+    genre: "Web Design",
+    nationality: "American",
+    bio: "lorem ipsum",
+  };
+  array.push(myID);
+  return array;
 }
+
+console.log(addArtist(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
